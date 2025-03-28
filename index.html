@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="main">
+        <header class="header">
+            <h1 style="color: #4c4c4c;">Markdown Previewer</h1>
+            <button id="clear-btn" onclick="clearInput()">Clear Input</button>
+        </header>
+        <div class="markdown-pane">
+            <textarea id="input-pane" placeholder="Type here"></textarea>
+            <div id="output-pane" class="text-gray">Your output will appear here.</div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
